@@ -61,13 +61,14 @@ def returnTime(algoritmo, lista):
     t1 = time()
     algoritmo(lista)
     t2 = time()
-    return round(t2-t1, 3)
+    return round(t2-t1, 2)
 
-print(f"\t\tComparação | Algoritmos de Ordenação")
+print(f"\n\t\tComparação | Algoritmos de Ordenação")
 print(f"\tSeleção\t|  Mergesort\t|  Quicksort    |  Native")
+print ('-'*65)
 for amo in amostra:
-    print(f'{amo}\t{returnTime(selecao, returnLista(amo))}\t|\t{returnTime(mergesort, returnLista(amo))}\t|\t{returnTime(quicksort, returnLista(amo))}\t|\t{returnTime(native, returnLista(amo))}')
-
-
+    print(f'{amo} |\t{returnTime(selecao, returnLista(amo))}\t|\t{returnTime(mergesort, returnLista(amo))}\t|\t{returnTime(quicksort, returnLista(amo))}\t|\t{returnTime(native, returnLista(amo))}')
+    print ('-'*65)
+    
 
 
