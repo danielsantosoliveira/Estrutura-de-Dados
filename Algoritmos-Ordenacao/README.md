@@ -1,6 +1,6 @@
 # Estrutura de Dados
 ## Comparação dos Algoritmos de Ordenação
-Desenvolvido para mostrar o tempo de execução dos **Algoritmos de Ordenação** Sorted função embutida Python, Seleção, Mergesort e Quicksort de um vetor com dois mil elementos, incrementando dois mil elemento até vinte e dois mil.
+Desenvolvido para mostrar o tempo de execução dos **Algoritmos de Ordenação** Sorted função embutida Python, Seleção, Mergesort e Quicksort de um vetor com dois mil elementos, incrementando dois mil até vinte e dois mil.
 
 ## Resultado:
 
